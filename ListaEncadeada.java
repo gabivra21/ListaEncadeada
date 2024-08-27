@@ -22,7 +22,16 @@ public class ListaEncadeada {
             this.top.next=  node;
             this.top = node;
             size ++;
-            
+        }
+    }
+
+    public Node getNode(int pos){
+        if (pos < this.size){
+            if (this.size/2 >= pos){
+                for (base, this.size/2){
+                    
+                }
+            }
 
         }
 
